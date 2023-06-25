@@ -36,7 +36,7 @@ function getFlags(ars){
     count.innerHTML = ""
     ars.slice(0,102).map((el)=> {
         // sort((a,b)=> b.population - a.population )
-        count.innerHTML += `<div class=" card bg-light col-4 my-2 border border-none " style="width: 18rem;">
+        count.innerHTML += `<div class=" card bg-light col-4 my-2 border border-none  style="width: 18rem;">
 <img class="card-img-top" src="${el.flags.svg}" width="400" height="200" alt="">
 <h1><span>Страна:</span>${el.name.common}</h1>
 <h1><span>Столица:</span>${el.capital ? el.capital : "no"}</h1>
